@@ -1,0 +1,10 @@
+Hello
+This is the django version of the blog that will be used
+
+This will also outline the structure of the application (of the table). Please
+ammend this with the style you see fit.
+
+
+main : the main blog that will hold the data
+The model.py structure outline the following.
+
