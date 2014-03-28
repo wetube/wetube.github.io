@@ -1,6 +1,6 @@
 Thumbs.db
 *.ogg
-blog/*
+# blog/*
 index.html.back
 wiki/*
 wp/*
