@@ -18,4 +18,4 @@ Table - Blog (the main blog model)
 : blog_Content - the actual content, currently limiting it to 1000 letters, 
   	       	can be increased
 
-: blog_uuid - the uuid or other identifier, if we go ahead with it
+: blog_ID - the uuid or other identifier, if we go ahead with it

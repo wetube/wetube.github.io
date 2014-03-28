@@ -1,0 +1,20 @@
+{% load staticfiles %}
+
+<link rel="stylesheet" type="text/css"
+	href="{% static 'main/style.css' %} " />
+
+{% if all_posts %}
+
+	{% for post in all_posts %}
+		<li>
+			<a href="{% url 'detail' post.blog_ID ">
+				{{ post.blog_Summary }}
+			</a>
+		</li>
+	{% endfor %}
+	
+{% else %}
+
+No blog posts to show
+ 
+{% endif %}
