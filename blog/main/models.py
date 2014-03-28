@@ -8,7 +8,7 @@ class BlogPost(models.Model):
     # The poster who posted the message. Currently set at 50 length, but can be increased later
     blog_Poster = models.CharField(max_length=50)
     # The time and date at which the message was posted
-    blog_TimeDate = models.DateTimeField(default=datetime.now())
+    blog_TimeDate = models.DateTimeField('Date and Time Published', default=datetime.now())
     # THe project for which the post was made
     blog_Project = models.CharField(max_length=50)
     # A summary of the post

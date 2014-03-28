@@ -7,7 +7,7 @@
 
 	{% for post in all_posts %}
 		<li>
-			<a href="{% url 'detail' post.blog_ID ">
+			<a href="{% url 'main:postDetails' post.id %}">
 				{{ post.blog_Summary }}
 			</a>
 		</li>
